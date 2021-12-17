@@ -51,7 +51,7 @@ const useApplicationData = () => {
     const days = getSpotsUpdatedDays(-1);
 
     return axios.put(`api/appointments/${id}`, { interview })
-      .then(() => setState({ ...state, appointments, days }))     
+      .then(() => setState({ ...state, appointments, days }))
   }
 
   function cancelInterview(id) {

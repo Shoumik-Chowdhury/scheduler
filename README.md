@@ -24,4 +24,4 @@ npm run storybook
 
 ## Screenshots
 
-![interview-scheduler]()
+![interview-scheduler](https://github.com/Shoumik-Chowdhury/scheduler/blob/master/docs/Interview-Scheduler.gif?raw=true)

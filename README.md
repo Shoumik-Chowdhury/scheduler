@@ -1,7 +1,7 @@
 # Interview Scheduler
 
 Interview scheduler is an app that lets user manage their interview appointments.
-It is built for educational purposes and and learn about React library.
+It is built for educational purposes specifically to learn and experiment with the React library.
 
 ## Setup
 

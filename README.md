@@ -13,6 +13,10 @@ Install dependencies with `npm install`.
 npm start
 ```
 
+## Running API server
+
+[Scheduler API](https://github.com/Shoumik-Chowdhury/scheduler-api) contains detailed information on how to setup the API server. It must be running to run the application.
+
 ## Running Jest Test Framework
 
 ```sh

@@ -28,4 +28,4 @@ npm run storybook
 ## Screenshots
 Demo of final product
 
-![interview-scheduler](https://github.com/Shoumik-Chowdhury/scheduler/blob/master/docs/Interview-Scheduler.gif?raw=true)
+![interview-scheduler](https://github.com/Shoumik-Chowdhury/scheduler/blob/master/docs/interview_scheduler.gif?raw=true)

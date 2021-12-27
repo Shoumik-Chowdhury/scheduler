@@ -27,8 +27,8 @@ const useVisualMode = (initialMode) => {
     setHistory(prev => {
 
       if (prev.length > 1) {
-        prev.pop();
-        setMode(prev[prev.length - 1]);
+        setMode(prev[prev.length - 2]);
+        return [...prev.slice(0, -1)];
       }
       return prev;
     }); 

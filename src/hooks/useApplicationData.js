@@ -48,7 +48,11 @@ const useApplicationData = () => {
       [id]: appointment
     };
 
-    const days = getSpotsUpdatedDays(-1);
+    let days = state.days;
+
+    if (!state.appointments[id].interview) {
+      days = getSpotsUpdatedDays(-1);
+    }
 
     return axios.put(`api/appointments/${id}`, { interview })
       .then(() => setState({ ...state, appointments, days }))
